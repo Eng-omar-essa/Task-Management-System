@@ -36,8 +36,6 @@ import java.util.Random;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @AutoConfigureMockMvc
-//@ContextConfiguration
-//@SpringBootTest
 
 public class TaskControllerTest {
 
@@ -49,39 +47,24 @@ public class TaskControllerTest {
     @InjectMocks
     private TaskController taskController;
 
-//    @Autowired
-//    private WebApplicationContext wac;
 
     @Before
     public void setUp() throws Exception {
         mockMvc = MockMvcBuilders.standaloneSetup(taskController).build();
-//        this.mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();
+
     }
 
 
     @Test
     public void listAllTasks() throws Exception {
-//        List<Task> tasks = JsonPath.read("listall.json", Task.class);
-//
-//        try{
-//            ObjectMapper mapper = new ObjectMapper();
-//
-//            JsonNode expectedNode = mapper.readTree(tasks.jsonString());
-//            System.out.println(expectedNode.toString());
-//        }catch (Exception e){
-//            throw new RuntimeException(e);
-//        }
 
-
-//        mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/tasks").accept(MediaType.APPLICATION_JSON))
-//                .andExpect(jsonPath("$[0]"), hasSize(11))).andDo(print());
     }
 
     @Test
     public void createTask() {
 //        this.mockMvc.perform(post("/api/v1/tasks")
 //                .contentType(APPLICATION_JSON)
-//                .content(organizationPayload("org1"))
+//                .content(Task("task"))
 //                .accept(APPLICATION_JSON))
 //                .andDo(print())
 //                .andExpect(status().isCreated());
