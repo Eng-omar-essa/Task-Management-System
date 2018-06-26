@@ -1,0 +1,93 @@
+[
+  {
+    "id": "07da9c0a-c9d8-4031-bdd9-bc64c9213fda",
+    "version": 0,
+    "createdAt": "2018-06-25 20:05:52",
+    "updatedAt": null,
+    "dueDate": "2018-06-25 20:05:52",
+    "resolvedAt": null,
+    "reminderAt": "2018-06-25 20:05:52",
+    "title": "TASK - 0",
+    "description": "This is Sample Task - 0",
+    "priority": 1,
+    "taskStatus": "POSTPONED"
+  },
+  {
+    "id": "e9f74b12-8dad-443c-88fa-213da243afa3",
+    "version": 0,
+    "createdAt": "2018-06-25 20:07:12",
+    "updatedAt": null,
+    "dueDate": "2018-06-25 20:07:12",
+    "resolvedAt": null,
+    "reminderAt": null,
+    "title": "TASK - 3",
+    "description": "This is Sample Task - 3",
+    "priority": 0,
+    "taskStatus": "ACTIVE"
+  },
+  {
+    "id": "ddfe3b16-746f-44d7-8984-539720d5c45e",
+    "version": 0,
+    "createdAt": "2018-06-25 20:06:22",
+    "updatedAt": null,
+    "dueDate": "2018-06-26 20:06:22",
+    "resolvedAt": "2018-06-27 20:06:22",
+    "reminderAt": null,
+    "title": "TASK - 1",
+    "description": "This is Sample Task - 1",
+    "priority": 1,
+    "taskStatus": "COMPLETED"
+  },
+  {
+    "id": "19a5ed77-407e-4aa3-aafa-c1109882dd71",
+    "version": 0,
+    "createdAt": "2018-06-25 20:07:02",
+    "updatedAt": null,
+    "dueDate": "2018-06-26 20:07:02",
+    "resolvedAt": null,
+    "reminderAt": null,
+    "title": "TASK - 2",
+    "description": "This is Sample Task - 2",
+    "priority": 1,
+    "taskStatus": "ACTIVE"
+  },
+  {
+    "id": "9238760d-d16b-4075-849f-3745f5d3adb0",
+    "version": 0,
+    "createdAt": "2018-06-25 20:08:12",
+    "updatedAt": null,
+    "dueDate": "2018-06-26 20:08:12",
+    "resolvedAt": "2018-06-28 20:08:12",
+    "reminderAt": null,
+    "title": "TASK - 5",
+    "description": "This is Sample Task - 5",
+    "priority": 4,
+    "taskStatus": "COMPLETED"
+  },
+  {
+    "id": "03aff559-8088-4fb0-96a2-bd40a3d18dd5",
+    "version": 0,
+    "createdAt": "2018-06-25 20:08:42",
+    "updatedAt": null,
+    "dueDate": "2018-06-26 20:08:42",
+    "resolvedAt": null,
+    "reminderAt": null,
+    "title": "TASK - 6",
+    "description": "This is Sample Task - 6",
+    "priority": 4,
+    "taskStatus": "ACTIVE"
+  },
+  {
+    "id": "c47ebe1e-e819-4f97-842f-67008c330f6e",
+    "version": 0,
+    "createdAt": "2018-06-25 20:07:22",
+    "updatedAt": null,
+    "dueDate": "2018-06-29 20:07:22",
+    "resolvedAt": null,
+    "reminderAt": "2018-06-25 20:07:22",
+    "title": "TASK - 4",
+    "description": "This is Sample Task - 4",
+    "priority": 2,
+    "taskStatus": "POSTPONED"
+  }
+]

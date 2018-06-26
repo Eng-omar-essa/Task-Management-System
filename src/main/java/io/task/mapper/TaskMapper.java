@@ -4,10 +4,12 @@ import io.task.dao.Task;
 import io.task.dto.TaskDTO;
 import io.task.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 import java.util.UUID;
 
+@Component
 public class TaskMapper {
 
     /**
@@ -18,7 +20,7 @@ public class TaskMapper {
 
     private static TaskService taskService;
 
-    @Autowired
+
     public TaskMapper(TaskService taskService){
         TaskMapper.taskService = taskService;
     }

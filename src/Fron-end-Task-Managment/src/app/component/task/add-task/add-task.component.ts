@@ -129,7 +129,8 @@ export class AddTaskComponent implements OnInit {
         .subscribe(
           (data: any) => {
             this.responseData = data;
-            this.router.navigate(['/addTask']);
+            this.router.navigate(['/']);
+            // this.addForm.reset();
           },
           err => {
             console.log(err);

@@ -1,6 +1,4 @@
-/**
- * Created by SAMPATH on 6/14/2017.
- */
+
 
 export class ResponseData {
 

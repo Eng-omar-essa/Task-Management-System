@@ -73,7 +73,7 @@ public class TaskController {
     }
 
     @RequestMapping(value = "/tasks", method = RequestMethod.POST)
-     public ResponseEntity<?> createTask(@Valid @RequestBody TaskDTO taskDTO, UriComponentsBuilder ucBuilder, Errors errors) {
+    public ResponseEntity<?> createTask(@Valid @RequestBody TaskDTO taskDTO, UriComponentsBuilder ucBuilder, Errors errors) {
 
         if (errors.hasErrors()) {
             return ResponseEntity.badRequest().build();
@@ -102,9 +102,7 @@ public class TaskController {
             throw new TaskNotFoundException("uuid");
 
         }
-
-
-        try{
+        try {
             Task taskNew = convertToEntity(taskDTO);
             System.out.println(taskNew);
             Task taskSaved = taskService.saveOrUpdate(taskNew);
@@ -114,11 +112,11 @@ public class TaskController {
             } else {
                 return ResponseEntity.unprocessableEntity().build();
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return  responseEntity;
+        return responseEntity;
 
     }
 
