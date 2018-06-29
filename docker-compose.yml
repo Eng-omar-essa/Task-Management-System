@@ -16,8 +16,8 @@ services:
     networks: 
       - app
     restart: always
-  inventory:
-    image: kellymarchewa/inventory_api
+  task-mangement:
+    image: omarissa/task-mangement
     depends_on:
         - db
     ports:
